@@ -7,7 +7,11 @@ def second_challenge
   }
 
   #code your solution here!
+  new_array = []
+  groceries.values.each do |array|
+    new_array.concat(array)
+  end
+  new_array
 
-  
 
 end
